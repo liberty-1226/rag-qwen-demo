@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "category": "事实性问答",
+    "question": "最后的问题是什么？",
+    "expected_answer": "如何将宇宙的净熵值大幅减少，从而避免宇宙的热寂",
+    "description": "测试模型是否能从文档中准确提取核心概念。"
+  },
+  {
+    "id": 2,
+    "category": "多轮对话",
+    "question": "AC最后说了什么？",
+    "expected_answer": "要有光",
+    "description": "测试模型对文档结尾关键情节的记忆。"
+  },
+  {
+    "id": 3,
+    "category": "边界情况",
+    "question": "今天北京天气怎么样？",
+    "expected_answer": "我不知道",
+    "description": "测试模型是否会产生幻觉，对于文档外的问题应诚实拒答。"
+  },
+  {
+    "id": 4,
+    "category": "细节查询",
+    "question": "好家鲜超市有几家门店？",
+    "expected_answer": "8家",
+    "description": "测试模型对具体数字信息的提取能力。"
+  }
+]
